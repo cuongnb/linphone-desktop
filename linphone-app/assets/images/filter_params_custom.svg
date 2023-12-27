@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="80"
+   height="80"
+   viewBox="0 0 80 80"
+   fill="none"
+   version="1.1"
+   id="svg27"
+   sodipodi:docname="filter_params_custom.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview29"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="4.9104638"
+     inkscape:cx="88.077221"
+     inkscape:cy="32.176187"
+     inkscape:window-width="1963"
+     inkscape:window-height="1209"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg27" />
+  <g
+     filter="url(#filter0_b_26_3850)"
+     id="g14"
+     transform="matrix(2.7586207,0,0,2.7586207,11.034483,16.034483)">
+    <path
+       d="M 5,2 V 16.3347"
+       stroke="#000000"
+       stroke-width="1.5"
+       stroke-linecap="round"
+       id="path2" />
+    <path
+       d="M 15,2 V 16.3347"
+       stroke="#000000"
+       stroke-width="1.5"
+       stroke-linecap="round"
+       id="path4" />
+    <path
+       d="M 10,2 V 16.3347"
+       stroke="#000000"
+       stroke-width="1.5"
+       stroke-linecap="round"
+       id="path6" />
+    <circle
+       cx="5"
+       cy="5.72189"
+       r="1.25"
+       fill="#000000"
+       stroke="#000000"
+       stroke-width="1.5"
+       id="circle8" />
+    <circle
+       cx="15"
+       cy="5.72189"
+       r="1.25"
+       fill="#000000"
+       stroke="#000000"
+       stroke-width="1.5"
+       id="circle10" />
+    <circle
+       cx="10"
+       cy="12.7219"
+       r="1.25"
+       fill="#000000"
+       stroke="#000000"
+       stroke-width="1.5"
+       id="circle12" />
+  </g>
+  <defs
+     id="defs25">
+    <filter
+       id="filter0_b_26_3850"
+       x="-4"
+       y="-4"
+       width="29"
+       height="26"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood16" />
+      <feGaussianBlur
+         in="BackgroundImageFix"
+         stdDeviation="2"
+         id="feGaussianBlur18" />
+      <feComposite
+         in2="SourceAlpha"
+         operator="in"
+         result="effect1_backgroundBlur_26_3850"
+         id="feComposite20" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="effect1_backgroundBlur_26_3850"
+         result="shape"
+         id="feBlend22" />
+    </filter>
+  </defs>
+</svg>

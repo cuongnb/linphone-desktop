@@ -1,0 +1,69 @@
+# See: https://wiki.qt.io/Qml_Styling
+
+module Linphone.Styles
+
+# Components styles ------------------------------------------------------------
+
+singleton AccountStatusStyle                   1.0 Account/AccountStatusStyle.qml
+
+singleton CardBlockStyle                       1.0 Blocks/CardBlockStyle.qml
+singleton RequestBlockStyle                    1.0 Blocks/RequestBlockStyle.qml
+
+singleton CameraViewStyle                      1.0 Camera/CameraViewStyle.qml
+
+singleton ChatStyle                            1.0 Chat/ChatStyle.qml
+singleton ChatAudioMessageStyle                1.0 Chat/ChatAudioMessageStyle.qml
+singleton ChatAudioPreviewStyle                1.0 Chat/ChatAudioPreviewStyle.qml
+singleton ChatEmojisStyle                      1.0 Chat/ChatEmojisStyle.qml
+singleton ChatFilePreviewStyle                 1.0 Chat/ChatFilePreviewStyle.qml
+singleton ChatCalendarMessageStyle             1.0 Chat/ChatCalendarMessageStyle.qml
+singleton ChatForwardMessageStyle              1.0 Chat/ChatForwardMessageStyle.qml
+singleton ChatReactionsDetailsStyle            1.0 Chat/ChatReactionsDetailsStyle.qml
+singleton ChatReplyMessageStyle                1.0 Chat/ChatReplyMessageStyle.qml
+
+singleton CallControlsStyle                    1.0 Calls/CallControlsStyle.qml
+singleton CallsStyle                           1.0 Calls/CallsStyle.qml
+singleton CallStatisticsStyle                  1.0 Calls/CallStatisticsStyle.qml
+singleton ConferenceControlsStyle              1.0 Calls/ConferenceControlsStyle.qml
+
+singleton CodecsViewerStyle                    1.0 Codecs/CodecsViewerStyle.qml
+
+singleton AvatarStyle                          1.0 Contact/AvatarStyle.qml
+singleton ContactDescriptionStyle              1.0 Contact/ContactDescriptionStyle.qml
+singleton ContactMessageCounterStyle           1.0 Contact/ContactMessageCounterStyle.qml
+singleton ContactStyle                         1.0 Contact/ContactStyle.qml
+
+singleton MultimediaParametersDialogStyle      1.0 Dialog/MultimediaParametersDialogStyle.qml
+singleton OnlineInstallerDialogStyle           1.0 Dialog/OnlineInstallerDialogStyle.qml
+singleton SipAddressDialogStyle                1.0 Dialog/SipAddressDialogStyle.qml
+singleton ZrtpTokenAuthenticationDialogStyle   1.0 Dialog/ZrtpTokenAuthenticationDialogStyle.qml
+
+singleton FileViewStyle                        1.0 File/FileViewStyle.qml
+
+singleton HistoryStyle                         1.0 History/HistoryStyle.qml
+
+singleton SipAddressesMenuStyle                1.0 Menus/SipAddressesMenuStyle.qml
+singleton IncallMenuStyle                      1.0 Menus/IncallMenuStyle.qml
+
+singleton MessageCounterStyle                  1.0 Misc/MessageCounterStyle.qml
+
+singleton NotificationBasicStyle               1.0 Notifications/NotificationBasicStyle.qml
+singleton NotificationReceivedCallStyle        1.0 Notifications/NotificationReceivedCallStyle.qml
+singleton NotificationReceivedFileMessageStyle 1.0 Notifications/NotificationReceivedFileMessageStyle.qml
+singleton NotificationReceivedMessageStyle     1.0 Notifications/NotificationReceivedMessageStyle.qml
+singleton NotificationStyle                    1.0 Notifications/NotificationStyle.qml
+
+singleton AvatarStickerStyle                   1.0 Sticker/AvatarStickerStyle.qml
+singleton CameraStickerStyle                   1.0 Sticker/CameraStickerStyle.qml
+singleton DecorationStickerStyle               1.0 Sticker/DecorationStickerStyle.qml
+singleton StickerStyle                         1.0 Sticker/StickerStyle.qml
+
+singleton TelKeypadStyle                       1.0 TelKeypad/TelKeypadStyle.qml
+
+singleton CallTimelineStyle                    1.0 Timeline/CallTimelineStyle.qml
+singleton TimelineStyle                        1.0 Timeline/TimelineStyle.qml
+
+singleton ParticipantsListViewStyle            1.0 View/ParticipantsListViewStyle.qml
+singleton ParticipantsViewStyle                1.0 View/ParticipantsViewStyle.qml
+singleton SipAddressesViewStyle                1.0 View/SipAddressesViewStyle.qml
+

@@ -1,0 +1,44 @@
+FROM gitlab.linphone.org:4567/bc/public/linphone-sdk/bc-dev-centos7:20210217_python3
+
+MAINTAINER Peio Rigaux <peio.rigaux@belledonne-communications.com>
+
+
+# QT Dependenciesi (pigz is used to parallelize compression)
+RUN sudo yum install -y libxkbcommon* libxcb  freeglut-devel pigz icc-profiles-openicc fontconfig fontconfig-devel libfontconfig1-dev freetype-devel
+RUN sudo yum install -y devtoolset-8
+RUN sudo yum install -y devtoolset-8-gcc*
+RUN scl enable devtoolset-8 bash
+
+RUN sudo yum install -y gperf flex
+
+SHELL ["/bin/bash", "--login", "-c"]
+
+RUN scl enable devtoolset-8 bash
+RUN gcc --version
+# Configure AppImages dependencies
+RUN sudo yum install -y fuse fuse-libs wget
+
+
+
+# Build qt5.12.12
+RUN git clone -b feature/webview_subscription --single-branch https://gitlab.linphone.org/BC/public/linphone-desktop.git && \
+    ./linphone-desktop/tools/build_qt_rpm && \
+    sudo rpm -i ./linphone-desktop/rpm-linphone-qt-5.12.12/rpmbuild/RPMS/x86_64/*.rpm && \
+    sudo mv ./linphone-desktop/rpm-linphone-qt-5.12.12/rpmbuild/RPMS/x86_64/*.rpm / && \
+    sudo rm -rf ./linphone-desktop
+
+
+RUN echo 'source /opt/rh/devtoolset-8/enable' >> /home/bc/.bashrc
+RUN echo 'source /opt/rh/devtoolset-8/enable' >> /home/bc/.shrc; exit 0
+
+# This tells /bin/sh to load '~/.shrc' on starting
+ENV ENV=~/.shrc 
+
+
+ENV Qt5_DIR=/opt/com.belledonne-communications/linphone/lib/cmake
+ENV PATH=$PATH:/opt/com.belledonne-communications/linphone/bin
+
+USER bc
+WORKDIR /home/bc
+ENV PS1='\[\e[34m\]\u@bc-dev-centos7>\[\e[0m\] '
+CMD bash

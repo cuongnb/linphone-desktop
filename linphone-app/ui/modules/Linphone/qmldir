@@ -1,0 +1,76 @@
+# ==============================================================================
+# Linphone's components to export.
+# ==============================================================================
+
+module Linphone
+
+# Components -------------------------------------------------------------------
+
+AccountStatus                 1.0 Account/AccountStatus.qml
+
+CardBlock                     1.0 Blocks/CardBlock.qml
+RequestBlock                  1.0 Blocks/RequestBlock.qml
+
+Calls                         1.0 Calls/Calls.qml
+CallStatistics                1.0 Calls/CallStatistics.qml
+IncallAvatar                  1.0 Calls/IncallAvatar.qml
+
+CameraItem                    1.0 Camera/CameraItem.qml
+CameraView                    1.0 Camera/CameraView.qml
+
+
+Chat                          1.0 Chat/Chat.qml
+ChatAudioMessage              1.0 Chat/ChatAudioMessage.qml
+ChatAudioPreview              1.0 Chat/ChatAudioPreview.qml
+ChatCalendarMessage           1.0 Chat/ChatCalendarMessage.qml
+ChatConferenceInvitationMessage 1.0 Chat/ChatConferenceInvitationMessage.qml
+ChatContent                   1.0 Chat/ChatContent.qml
+ChatEmojis                    1.0 Chat/ChatEmojis.qml
+ChatFullContent               1.0 Chat/ChatFullContent.qml
+ChatMessagePreview            1.0 Chat/ChatMessagePreview.qml
+ChatForwardMessage            1.0 Chat/ChatForwardMessage.qml
+ChatReactions                 1.0 Chat/ChatReactions.qml
+ChatReactionsDetails          1.0 Chat/ChatReactionsDetails.qml
+ChatReplyMessage              1.0 Chat/ChatReplyMessage.qml
+ChatReplyPreview              1.0 Chat/ChatReplyPreview.qml
+
+CodecsViewer                  1.0 Codecs/CodecsViewer.qml
+
+Avatar                        1.0 Contact/Avatar.qml
+Contact                       1.0 Contact/Contact.qml
+ContactDescription            1.0 Contact/ContactDescription.qml
+ContactMessageCounter         1.0 Contact/ContactMessageCounter.qml
+
+SipAddressDialog              1.0 Dialog/SipAddressDialog.qml
+MultimediaParametersDialog    1.0 Dialog/MultimediaParametersDialog.qml
+ZrtpTokenAuthenticationDialog 1.0 Dialog/ZrtpTokenAuthenticationDialog.qml
+
+FileView                      1.0 File/FileView.qml
+
+History                       1.0 History/History.qml
+
+SipAddressesMenu              1.0 Menus/SipAddressesMenu.qml
+IncallMenu                    1.0 Menus/IncallMenu.qml
+
+MessageCounter                1.0 Misc/MessageCounter.qml
+
+PresenceLevel                 1.0 Presence/PresenceLevel.qml
+
+SmartSearchBar                1.0 SmartSearchBar/SmartSearchBar.qml
+
+AvatarSticker                 1.0 Sticker/AvatarSticker.qml
+CameraSticker                 1.0 Sticker/CameraSticker.qml
+DecorationSticker             1.0 Sticker/DecorationSticker.qml
+Sticker                       1.0 Sticker/Sticker.qml
+
+TelKeypad                     1.0 TelKeypad/TelKeypad.qml
+
+CallTimeline                  1.0 Timeline/CallTimeline.qml
+CallTimelineItem              1.0 Timeline/CallTimelineItem.qml
+Timeline                      1.0 Timeline/Timeline.qml
+TimelineItem                  1.0 Timeline/TimelineItem.qml
+
+ParticipantsListView          1.0 View/ParticipantsListView.qml
+ParticipantsView              1.0 View/ParticipantsView.qml
+SipAddressesView              1.0 View/SipAddressesView.qml
+
