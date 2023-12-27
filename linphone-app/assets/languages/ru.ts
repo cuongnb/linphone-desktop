@@ -949,16 +949,16 @@
 <context>
     <name>ConferenceManager</name>
     <message>
-        <source>conferenceManagerDescription</source>
-        <translation>Управляйте участниками вашей встречи.</translation>
-    </message>
-    <message>
         <source>cancel</source>
         <translation>ОТМЕНА</translation>
     </message>
     <message>
         <source>confirm</source>
         <translation>НАЧАТЬ</translation>
+    </message>
+    <message>
+        <source>conferenceManagerDescription</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1650,16 +1650,6 @@
         <translation>Нажмите на кнопку воспроизведения, чтобы присоединиться к ней обратно.</translation>
     </message>
     <message>
-        <source>incallStartRecordTooltip</source>
-        <extracomment>&apos;Start recording&apos; : Tootltip when straing record.</extracomment>
-        <translation>Начать запись</translation>
-    </message>
-    <message>
-        <source>incallStopRecordTooltip</source>
-        <extracomment>&apos;Stop Recording&apos; : Tooltip when stopping record.</extracomment>
-        <translation>Остановить запись</translation>
-    </message>
-    <message>
         <source>incallSnapshotTooltip</source>
         <extracomment>&apos;Take Snapshot&apos; : Tooltip for takking snapshot.</extracomment>
         <translation>Сделать снимок экрана</translation>
@@ -1706,16 +1696,6 @@
         <source>incallPauseHint</source>
         <extracomment>&apos;Click on play button to join it back.&apos; : Explain what to do when being in pause in conference.</extracomment>
         <translation>Нажмите на кнопку воспроизведения, чтобы присоединиться к ней обратно.</translation>
-    </message>
-    <message>
-        <source>incallStartRecordTooltip</source>
-        <extracomment>&apos;Start recording&apos; : Tootltip when straing record.</extracomment>
-        <translation>Начать запись</translation>
-    </message>
-    <message>
-        <source>incallStopRecordTooltip</source>
-        <extracomment>&apos;Stop Recording&apos; : Tooltip when stopping record.</extracomment>
-        <translation>Остановить запись</translation>
     </message>
     <message>
         <source>incallSnapshotTooltip</source>
@@ -1934,10 +1914,6 @@
 <context>
     <name>MainWindow</name>
     <message>
-        <source>mainSearchBarPlaceholder</source>
-        <translation>Найти контакт, начать звонок или чат…</translation>
-    </message>
-    <message>
         <source>autoAnswerStatus</source>
         <translation>авто</translation>
     </message>
@@ -2029,6 +2005,10 @@
     <message>
         <source>remoteProvisioningWarnAccountOverwrite</source>
         <translation type="unfinished">An account is already provisioned. This action will erase the existing account. : Warn user about it.</translation>
+    </message>
+    <message>
+        <source>mainSearchBarPlaceholder</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3028,10 +3008,6 @@
     <message>
         <source>showTelKeypadAutomaticallyLabel</source>
         <translation>Показывать телефонную клавиатуру автоматически</translation>
-    </message>
-    <message>
-        <source>automaticallyRecordCallsLabel</source>
-        <translation>Автоматически записывать звонки</translation>
     </message>
     <message>
         <source>keepCallsWindowInBackgroundLabel</source>

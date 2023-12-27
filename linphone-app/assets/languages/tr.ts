@@ -935,16 +935,16 @@ Sunucu url&apos;si yapılandırılmadı.</translation>
 <context>
     <name>ConferenceManager</name>
     <message>
-        <source>conferenceManagerDescription</source>
-        <translation>Toplantı katılımcılarınızı yönetin.</translation>
-    </message>
-    <message>
         <source>cancel</source>
         <translation>İPTAL</translation>
     </message>
     <message>
         <source>confirm</source>
         <translation>BAŞLAT</translation>
+    </message>
+    <message>
+        <source>conferenceManagerDescription</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1628,16 +1628,6 @@ Sunucu url&apos;si yapılandırılmadı.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>incallStartRecordTooltip</source>
-        <extracomment>&apos;Start recording&apos; : Tootltip when straing record.</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>incallStopRecordTooltip</source>
-        <extracomment>&apos;Stop Recording&apos; : Tooltip when stopping record.</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>incallSnapshotTooltip</source>
         <extracomment>&apos;Take Snapshot&apos; : Tooltip for takking snapshot.</extracomment>
         <translation type="unfinished"></translation>
@@ -1683,16 +1673,6 @@ Sunucu url&apos;si yapılandırılmadı.</translation>
     <message>
         <source>incallPauseHint</source>
         <extracomment>&apos;Click on play button to join it back.&apos; : Explain what to do when being in pause in conference.</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>incallStartRecordTooltip</source>
-        <extracomment>&apos;Start recording&apos; : Tootltip when straing record.</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>incallStopRecordTooltip</source>
-        <extracomment>&apos;Stop Recording&apos; : Tooltip when stopping record.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1912,10 +1892,6 @@ Buraya tıklayın: &lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;
 <context>
     <name>MainWindow</name>
     <message>
-        <source>mainSearchBarPlaceholder</source>
-        <translation>Kişi ara, çağrı veya sohbet başlat…</translation>
-    </message>
-    <message>
         <source>autoAnswerStatus</source>
         <translation>kendiliğinden</translation>
     </message>
@@ -2007,6 +1983,10 @@ Buraya tıklayın: &lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;
     <message>
         <source>remoteProvisioningWarnAccountOverwrite</source>
         <translation type="unfinished">An account is already provisioned. This action will erase the existing account. : Warn user about it.</translation>
+    </message>
+    <message>
+        <source>mainSearchBarPlaceholder</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3000,10 +2980,6 @@ Buraya tıklayın: &lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;
     <message>
         <source>showTelKeypadAutomaticallyLabel</source>
         <translation>Telefon numara takımını kendiliğinden göster</translation>
-    </message>
-    <message>
-        <source>automaticallyRecordCallsLabel</source>
-        <translation>Çağrıları kendiliğinden kaydet</translation>
     </message>
     <message>
         <source>keepCallsWindowInBackgroundLabel</source>

@@ -949,16 +949,16 @@
 <context>
     <name>ConferenceManager</name>
     <message>
-        <source>conferenceManagerDescription</source>
-        <translation>Керуйте учасниками вашої конференції.</translation>
-    </message>
-    <message>
         <source>cancel</source>
         <translation>СКАСУВАТИ</translation>
     </message>
     <message>
         <source>confirm</source>
         <translation>ПОЧАТИ</translation>
+    </message>
+    <message>
+        <source>conferenceManagerDescription</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1650,16 +1650,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>incallStartRecordTooltip</source>
-        <extracomment>&apos;Start recording&apos; : Tootltip when straing record.</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>incallStopRecordTooltip</source>
-        <extracomment>&apos;Stop Recording&apos; : Tooltip when stopping record.</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>incallSnapshotTooltip</source>
         <extracomment>&apos;Take Snapshot&apos; : Tooltip for takking snapshot.</extracomment>
         <translation type="unfinished"></translation>
@@ -1705,16 +1695,6 @@
     <message>
         <source>incallPauseHint</source>
         <extracomment>&apos;Click on play button to join it back.&apos; : Explain what to do when being in pause in conference.</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>incallStartRecordTooltip</source>
-        <extracomment>&apos;Start recording&apos; : Tootltip when straing record.</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>incallStopRecordTooltip</source>
-        <extracomment>&apos;Stop Recording&apos; : Tooltip when stopping record.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1934,10 +1914,6 @@
 <context>
     <name>MainWindow</name>
     <message>
-        <source>mainSearchBarPlaceholder</source>
-        <translation>Знайти контакт, почати дзвінок або чат…</translation>
-    </message>
-    <message>
         <source>autoAnswerStatus</source>
         <translation>авто</translation>
     </message>
@@ -2029,6 +2005,10 @@
     <message>
         <source>remoteProvisioningWarnAccountOverwrite</source>
         <translation type="unfinished">An account is already provisioned. This action will erase the existing account. : Warn user about it.</translation>
+    </message>
+    <message>
+        <source>mainSearchBarPlaceholder</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3028,10 +3008,6 @@
     <message>
         <source>showTelKeypadAutomaticallyLabel</source>
         <translation>Показувати телефонну набірницю автоматично</translation>
-    </message>
-    <message>
-        <source>automaticallyRecordCallsLabel</source>
-        <translation>Автоматично записувати дзвінки</translation>
     </message>
     <message>
         <source>keepCallsWindowInBackgroundLabel</source>

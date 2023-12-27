@@ -229,26 +229,26 @@ Window {
 				colorSet: IncallStyle.buttons.screenSharing
 				visible: false	//TODO
 			}
-			ActionButton {
-				id: recordingSwitch
-				isCustom: true
-				backgroundRadius: width/2
-				colorSet: IncallStyle.buttons.record
-				property CallModel callModel: conference.callModel
-				visible: SettingsModel.callRecorderEnabled && callModel
-							&& !conference.conferenceModel // Remove recording for conference (not fully implemented)
-				toggled: callModel && callModel.recording
-
-				onClicked: {
-					return !toggled
-							? callModel.startRecording()
-							: callModel.stopRecording()
-				}
-				//: 'Start recording' : Tootltip when straing record.
-				tooltipText: !toggled ? qsTr('incallStartRecordTooltip')
-				//: 'Stop Recording' : Tooltip when stopping record.
-					: qsTr('incallStopRecordTooltip')
-			}
+			// ActionButton {
+			// 	id: recordingSwitch
+			// 	isCustom: true
+			// 	backgroundRadius: width/2
+			// 	colorSet: IncallStyle.buttons.record
+			// 	property CallModel callModel: conference.callModel
+			// 	visible: SettingsModel.callRecorderEnabled && callModel
+			// 				&& !conference.conferenceModel // Remove recording for conference (not fully implemented)
+			// 	toggled: callModel && callModel.recording
+            //
+			// 	onClicked: {
+			// 		return !toggled
+			// 				? callModel.startRecording()
+			// 				: callModel.stopRecording()
+			// 	}
+			// 	//: 'Start recording' : Tootltip when straing record.
+			// 	tooltipText: !toggled ? qsTr('incallStartRecordTooltip')
+			// 	//: 'Stop Recording' : Tooltip when stopping record.
+			// 		: qsTr('incallStopRecordTooltip')
+			// }
 			ActionButton{
 				isCustom: true
 				backgroundRadius: width/2

@@ -1639,16 +1639,6 @@ Server URL not configured.</translation>
         <translation>Click on play button to join it back.</translation>
     </message>
     <message>
-        <source>incallStartRecordTooltip</source>
-        <extracomment>&apos;Start recording&apos; : Tootltip when straing record.</extracomment>
-        <translation>Start recording</translation>
-    </message>
-    <message>
-        <source>incallStopRecordTooltip</source>
-        <extracomment>&apos;Stop Recording&apos; : Tooltip when stopping record.</extracomment>
-        <translation>Stop Recording</translation>
-    </message>
-    <message>
         <source>incallSnapshotTooltip</source>
         <extracomment>&apos;Take Snapshot&apos; : Tooltip for takking snapshot.</extracomment>
         <translation>Take Snapshot</translation>
@@ -1695,16 +1685,6 @@ Server URL not configured.</translation>
         <source>incallPauseHint</source>
         <extracomment>&apos;Click on play button to join it back.&apos; : Explain what to do when being in pause in conference.</extracomment>
         <translation>Click on play button to join it back.</translation>
-    </message>
-    <message>
-        <source>incallStartRecordTooltip</source>
-        <extracomment>&apos;Start recording&apos; : Tootltip when straing record.</extracomment>
-        <translation>Start recording</translation>
-    </message>
-    <message>
-        <source>incallStopRecordTooltip</source>
-        <extracomment>&apos;Stop Recording&apos; : Tooltip when stopping record.</extracomment>
-        <translation>Stop Recording</translation>
     </message>
     <message>
         <source>incallSnapshotTooltip</source>
@@ -3021,10 +3001,6 @@ Click here: &lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;
     <message>
         <source>showTelKeypadAutomaticallyLabel</source>
         <translation>Show DTMF keypad automatically</translation>
-    </message>
-    <message>
-        <source>automaticallyRecordCallsLabel</source>
-        <translation>Automatically record calls</translation>
     </message>
     <message>
         <source>keepCallsWindowInBackgroundLabel</source>

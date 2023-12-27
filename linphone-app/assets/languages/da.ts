@@ -942,16 +942,16 @@ Server url ikke konfigureret.</translation>
 <context>
     <name>ConferenceManager</name>
     <message>
-        <source>conferenceManagerDescription</source>
-        <translation>Vælg deltagere til din konference.</translation>
-    </message>
-    <message>
         <source>cancel</source>
         <translation>ANNULLER</translation>
     </message>
     <message>
         <source>confirm</source>
         <translation>START</translation>
+    </message>
+    <message>
+        <source>conferenceManagerDescription</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1639,16 +1639,6 @@ Server url ikke konfigureret.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>incallStartRecordTooltip</source>
-        <extracomment>&apos;Start recording&apos; : Tootltip when straing record.</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>incallStopRecordTooltip</source>
-        <extracomment>&apos;Stop Recording&apos; : Tooltip when stopping record.</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>incallSnapshotTooltip</source>
         <extracomment>&apos;Take Snapshot&apos; : Tooltip for takking snapshot.</extracomment>
         <translation type="unfinished"></translation>
@@ -1694,16 +1684,6 @@ Server url ikke konfigureret.</translation>
     <message>
         <source>incallPauseHint</source>
         <extracomment>&apos;Click on play button to join it back.&apos; : Explain what to do when being in pause in conference.</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>incallStartRecordTooltip</source>
-        <extracomment>&apos;Start recording&apos; : Tootltip when straing record.</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>incallStopRecordTooltip</source>
-        <extracomment>&apos;Stop Recording&apos; : Tooltip when stopping record.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1923,10 +1903,6 @@ Klik her: &lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;
 <context>
     <name>MainWindow</name>
     <message>
-        <source>mainSearchBarPlaceholder</source>
-        <translation>Søg en kontakt, start en samtale eller en chat…</translation>
-    </message>
-    <message>
         <source>autoAnswerStatus</source>
         <translation>auto</translation>
     </message>
@@ -2018,6 +1994,10 @@ Klik her: &lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;
     <message>
         <source>remoteProvisioningWarnAccountOverwrite</source>
         <translation type="unfinished">An account is already provisioned. This action will erase the existing account. : Warn user about it.</translation>
+    </message>
+    <message>
+        <source>mainSearchBarPlaceholder</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3014,10 +2994,6 @@ Klik her: &lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;
     <message>
         <source>showTelKeypadAutomaticallyLabel</source>
         <translation>Vis telefonens tastatur automatisk</translation>
-    </message>
-    <message>
-        <source>automaticallyRecordCallsLabel</source>
-        <translation>Optag opkald automatisk</translation>
     </message>
     <message>
         <source>keepCallsWindowInBackgroundLabel</source>

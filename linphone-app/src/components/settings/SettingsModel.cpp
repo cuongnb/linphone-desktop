@@ -851,15 +851,16 @@ void SettingsModel::setCallRecorderEnabled (bool status) {
 	emit callRecorderEnabledChanged(status);
 }
 
-// -----------------------------------------------------------------------------
+// ------------------------------Cấu hình tự động record: luôn trả về true-----------------------------------------------
 
 bool SettingsModel::getAutomaticallyRecordCalls () const {
-	return !!mConfig->getInt(UiSection, "automatically_record_calls", 0);
+    return true;
+//	return !!mConfig->getInt(UiSection, "automatically_record_calls", 1);
 }
 
 void SettingsModel::setAutomaticallyRecordCalls (bool status) {
-	mConfig->setInt(UiSection, "automatically_record_calls", status);
-	emit automaticallyRecordCallsChanged(status);
+	mConfig->setInt(UiSection, "automatically_record_calls", true);
+	emit automaticallyRecordCallsChanged(true);
 }
 
 int SettingsModel::getAutoDownloadMaxSize() const{

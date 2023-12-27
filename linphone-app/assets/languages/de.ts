@@ -942,16 +942,16 @@ Server URL ist nicht konfiguriert.</translation>
 <context>
     <name>ConferenceManager</name>
     <message>
-        <source>conferenceManagerDescription</source>
-        <translation>Verwalten Sie die Teilnehmer Ihrer Besprechung.</translation>
-    </message>
-    <message>
         <source>cancel</source>
         <translation>ABBRECHEN</translation>
     </message>
     <message>
         <source>confirm</source>
         <translation>START</translation>
+    </message>
+    <message>
+        <source>conferenceManagerDescription</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1639,16 +1639,6 @@ Server URL ist nicht konfiguriert.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>incallStartRecordTooltip</source>
-        <extracomment>&apos;Start recording&apos; : Tootltip when straing record.</extracomment>
-        <translation>Aufzeichnung starten</translation>
-    </message>
-    <message>
-        <source>incallStopRecordTooltip</source>
-        <extracomment>&apos;Stop Recording&apos; : Tooltip when stopping record.</extracomment>
-        <translation>Aufzeichnung beenden</translation>
-    </message>
-    <message>
         <source>incallSnapshotTooltip</source>
         <extracomment>&apos;Take Snapshot&apos; : Tooltip for takking snapshot.</extracomment>
         <translation type="unfinished"></translation>
@@ -1695,16 +1685,6 @@ Server URL ist nicht konfiguriert.</translation>
         <source>incallPauseHint</source>
         <extracomment>&apos;Click on play button to join it back.&apos; : Explain what to do when being in pause in conference.</extracomment>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>incallStartRecordTooltip</source>
-        <extracomment>&apos;Start recording&apos; : Tootltip when straing record.</extracomment>
-        <translation>Aufzeichnung starten</translation>
-    </message>
-    <message>
-        <source>incallStopRecordTooltip</source>
-        <extracomment>&apos;Stop Recording&apos; : Tooltip when stopping record.</extracomment>
-        <translation>Aufzeichnung beenden</translation>
     </message>
     <message>
         <source>incallSnapshotTooltip</source>
@@ -1923,10 +1903,6 @@ Klicken Sie hier: &lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;
 <context>
     <name>MainWindow</name>
     <message>
-        <source>mainSearchBarPlaceholder</source>
-        <translation>Suche Kontakte, starte einen Anruf oder Chat…</translation>
-    </message>
-    <message>
         <source>autoAnswerStatus</source>
         <translation>automatisch</translation>
     </message>
@@ -2018,6 +1994,10 @@ Klicken Sie hier: &lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;
     <message>
         <source>remoteProvisioningWarnAccountOverwrite</source>
         <translation type="unfinished">An account is already provisioned. This action will erase the existing account. : Warn user about it.</translation>
+    </message>
+    <message>
+        <source>mainSearchBarPlaceholder</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3014,10 +2994,6 @@ Klicken Sie hier: &lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;
     <message>
         <source>showTelKeypadAutomaticallyLabel</source>
         <translation>Tastenfeld automatisch anzeigen</translation>
-    </message>
-    <message>
-        <source>automaticallyRecordCallsLabel</source>
-        <translation>Anrufe automatisch aufnehmen</translation>
     </message>
     <message>
         <source>keepCallsWindowInBackgroundLabel</source>

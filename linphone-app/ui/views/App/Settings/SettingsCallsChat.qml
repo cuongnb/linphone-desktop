@@ -193,16 +193,16 @@ TabContainer {
 					}
 				}
 				
-				FormGroup {
-					visible: SettingsModel.callRecorderEnabled || SettingsModel.developerSettingsEnabled
-					label: qsTr('automaticallyRecordCallsLabel')
-					
-					Switch {
-						checked: SettingsModel.automaticallyRecordCalls
-						
-						onClicked: SettingsModel.automaticallyRecordCalls = !checked
-					}
-				}
+				// FormGroup {
+				// 	visible: SettingsModel.callRecorderEnabled || SettingsModel.developerSettingsEnabled
+				// 	label: qsTr('automaticallyRecordCallsLabel')
+                //
+				// 	Switch {
+				// 		checked: SettingsModel.automaticallyRecordCalls
+                //
+				// 		onClicked: SettingsModel.automaticallyRecordCalls = !checked
+				// 	}
+				// }
 			}
 			FormLine {
 				FormGroup {

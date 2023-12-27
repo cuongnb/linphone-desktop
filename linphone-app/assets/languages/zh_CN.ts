@@ -935,16 +935,16 @@
 <context>
     <name>ConferenceManager</name>
     <message>
-        <source>conferenceManagerDescription</source>
-        <translation>管理会议参与者.</translation>
-    </message>
-    <message>
         <source>cancel</source>
         <translation>取消</translation>
     </message>
     <message>
         <source>confirm</source>
         <translation>开始</translation>
+    </message>
+    <message>
+        <source>conferenceManagerDescription</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1628,16 +1628,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>incallStartRecordTooltip</source>
-        <extracomment>&apos;Start recording&apos; : Tootltip when straing record.</extracomment>
-        <translation>开始录制</translation>
-    </message>
-    <message>
-        <source>incallStopRecordTooltip</source>
-        <extracomment>&apos;Stop Recording&apos; : Tooltip when stopping record.</extracomment>
-        <translation>停止录制</translation>
-    </message>
-    <message>
         <source>incallSnapshotTooltip</source>
         <extracomment>&apos;Take Snapshot&apos; : Tooltip for takking snapshot.</extracomment>
         <translation>截取快照</translation>
@@ -1684,16 +1674,6 @@
         <source>incallPauseHint</source>
         <extracomment>&apos;Click on play button to join it back.&apos; : Explain what to do when being in pause in conference.</extracomment>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>incallStartRecordTooltip</source>
-        <extracomment>&apos;Start recording&apos; : Tootltip when straing record.</extracomment>
-        <translation>开始录制</translation>
-    </message>
-    <message>
-        <source>incallStopRecordTooltip</source>
-        <extracomment>&apos;Stop Recording&apos; : Tooltip when stopping record.</extracomment>
-        <translation>停止录制</translation>
     </message>
     <message>
         <source>incallSnapshotTooltip</source>
@@ -1912,10 +1892,6 @@
 <context>
     <name>MainWindow</name>
     <message>
-        <source>mainSearchBarPlaceholder</source>
-        <translation>搜索联系人，并开始通话或聊天…</translation>
-    </message>
-    <message>
         <source>autoAnswerStatus</source>
         <translation>自动</translation>
     </message>
@@ -2007,6 +1983,10 @@
     <message>
         <source>remoteProvisioningWarnAccountOverwrite</source>
         <translation type="unfinished">An account is already provisioned. This action will erase the existing account. : Warn user about it.</translation>
+    </message>
+    <message>
+        <source>mainSearchBarPlaceholder</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3000,10 +2980,6 @@
     <message>
         <source>showTelKeypadAutomaticallyLabel</source>
         <translation>自动显示拨号盘</translation>
-    </message>
-    <message>
-        <source>automaticallyRecordCallsLabel</source>
-        <translation>自动录制通话</translation>
     </message>
     <message>
         <source>keepCallsWindowInBackgroundLabel</source>
